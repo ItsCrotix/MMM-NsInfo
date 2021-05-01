@@ -1,0 +1,29 @@
+.train {
+    text-align: left;
+    padding-right: 5px;
+}
+
+.direction {
+    text-align: left;
+    padding-right: 5px;
+}
+
+.station {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.departure {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.delay {
+    text-align: right;
+    color: rgb(112, 0, 0);
+}
+
+.train-icon {
+    text-align: center;
+    padding: 20px;
+}
