@@ -31,10 +31,10 @@ modules: [
 |`position` | Postion of the module. (See [MM Documentation](https://docs.magicmirror.builders/modules/configuration.html))
 |`header`   | Title displayed. (See [MM Documentation](https://docs.magicmirror.builders/modules/configuration.html))
 |`apiKey`    | Your NS API key.
-|`station`   | The name of your station.<b>Type:</b> String <b>Default:</b> Utrecht centraal
+|`station`   | The name of your station.<br><b>Type:</b> String <b>Default:</b> Utrecht centraal
 |`stationId` | The ID of your station.<br> <b>Type</b> String <b>Default:</b> UT
-|`maxDepartures`   | The maximum amout of departures shown on the dashboard.<br><b>Default:</b> 5
-|`updateInterval`   | The amount of time between updates <i>(in minutes).</i>.<br><b>Default:</b> 5
+|`maxDepartures`   | The maximum amout of departures shown on the dashboard.<br><b>Type</b> integer <b>Default:</b> 5
+|`updateInterval`   | The amount of time between updates <i>(in minutes).</i>.<br><b>Type</b> integer <b>Default:</b> 5
 
 ## Looking up Station ID codes
 To lookup a Station ID, you can use to `stations.js` file. Make sure to set you API Key in stations.js itself, as it cannot access the config file variable.
