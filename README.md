@@ -5,7 +5,7 @@ This Magic Mirror module shows Dutch train departures requested from the NS API.
 
 ## Installation
 Clone this repository in you modules folder with:
-git clone https://github.com/mfurious/MMM-NsInfo.git
+`git clone https://github.com/mfurious/MMM-NsInfo.git`
 
 ## Configuration
 To use this module, add the follwing configuration to your `config/config.js` file. This is an example for the departure times from Utrecht Central.
