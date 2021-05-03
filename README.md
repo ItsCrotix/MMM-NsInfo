@@ -3,7 +3,7 @@
 ## Description
 This Magic Mirror module shows Dutch train departures requested from the NS API.
 
-<img src=".github/images/preview_MMM-NsInfo_module.png">
+<img src="github.com/mfurious/MMM-NsInfo/blob/master/.github/images/preview_MMM-NsInfo_module.PNG">
 
 ## Installation
 Clone this repository in you modules folder with:
