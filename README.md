@@ -45,4 +45,4 @@ To lookup a Station ID, you can use to `stations.js` file. Make sure to set you 
 Neither the author or NS are in any way reliable for inaccuracies and have no liabilities regarding usage of the module in any kind.
 
 ### Version info
-v1.0.0
+v1.0.1

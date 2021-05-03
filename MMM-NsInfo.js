@@ -31,7 +31,6 @@ Module.register("MMM-NsInfo", {
 
   start: function () {
     Log.info("Starting module: " + this.name);
-    this.travels = [];
     this.loaded = false;
     this.scheduleUpdate(this.config.initialLoadDelay);
 
@@ -235,6 +234,7 @@ Module.register("MMM-NsInfo", {
 
   // Calls an update every set minutes
   scheduleUpdate: function (delay) {
+    this.travels = [];
     var nextLoad = this.config.updateInterval * 1000 * 60;
     if (typeof delay !== "undefined" && delay >= 0) {
       nextLoad = delay;
